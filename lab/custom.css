@@ -1,0 +1,48 @@
+.border-input {
+    border-width: 1px;
+    border-color: black;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1065;
+}
+
+.bg-dark-overlay {
+    background: linear-gradient(180deg, rgba(18, 18, 20, .68), transparent);
+}
+
+
+
+.product {
+    margin-top: 60px;
+}
+
+.modal {
+    z-index: 1060;
+
+}
+
+.modal-backdrop {
+    z-index: 1055;
+
+}
+
+.title {
+    margin-left: 48px;
+}
+
+
+
+.hover-target:hover+#book-info-popup {
+    display: block;
+}
+
+#book-info-popup {
+    display: none;
+}
+
+/* Đặt hiển thị phần .display-content ban đầu là ẩn */
+
+
+/* Khi hover vào bất kỳ .product-item nào thì hiển thị phần .display-content */
